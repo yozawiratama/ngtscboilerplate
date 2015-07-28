@@ -20,15 +20,18 @@ before that u must install nodejs
 ###File Structure
 ```
 ngTscBoilerplate/
+  |- index.html
   |- App/  
-  |  |- App.ts
-  |  |- Hello/
-  |  |  |- Hello.html
-  |  |  |- HelloCtrl.ts
-  |  |  |- HelloService.ts
-  |  |  |- IHello.ts 
-  |  |  |- HelloConfig.ts
-  |  |  |- HelloFilter.ts     
+  |  |- App.Modules.ts
+  |  |- App.Routes.ts
+  |  |- Default
+  |  |- |- Hello/
+  |  |  | |- Hello.html
+  |  |  | |- HelloCtrl.ts
+  |  |  | |- HelloService.ts
+  |  |  | |- IHello.ts 
+  |  |  | |- HelloConfig.ts
+  |  |  | |- HelloFilter.ts     
   |- Assets/
   |  |- <static files>
   |- Common/
@@ -40,3 +43,4 @@ ngTscBoilerplate/
   |- build.config.js
   |- package.json
 ```
+###IIFE
